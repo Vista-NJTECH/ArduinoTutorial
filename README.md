@@ -10,3 +10,5 @@ This tutorial is based on Arduino boards and there will be three parts,including
 * Part-2 More Basic Knowledges 
     - [04.PWM?What's this?](https://github.com/510Lab/ArduinoTutorial/blob/main/04.PWM%3FWhat's%20this%3F.md)
     - [05.Oh,Interrupt,interrupt what?](https://github.com/510Lab/ArduinoTutorial/blob/main/05.Oh%2CInterrupt%2Cinterrupt%20what%3F.md)
+    - [06.Communication,get your Arduino a friend!](https://github.com/510Lab/ArduinoTutorial/blob/main/06.Communication%2Cget%20your%20Arduino%20a%20friend!.md)
+
