@@ -13,4 +13,5 @@ This tutorial is based on Arduino boards and there will be three parts,including
     - [06.Communication,get your Arduino a friend!](https://github.com/510Lab/ArduinoTutorial/blob/main/06.Communication%2Cget%20your%20Arduino%20a%20friend!.md)  
 * Part-3 Sensors you should know.
     - [07.Ultrasonic sensor,a little cool](https://github.com/510Lab/ArduinoTutorial/blob/main/07.Ultrasonic%20sensor%2Ca%20little%20cool..md)
-    - [08.Moter control.md](https://github.com/510Lab/ArduinoTutorial/blob/main/08.Motor%20Control.md)
+    - [08.Moter Control](/08.Motor%20Control.md)
+    - [09.It's time to show!](/09.It's%20time%20to%20show!.md)
