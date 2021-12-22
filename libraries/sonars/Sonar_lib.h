@@ -2,6 +2,6 @@
 
 class Sonar {
   public:
-    void setSonarPin(int, int);
+    void setSonarPin(unsigned int, unsigned int);
     int sonarStart();
 };
