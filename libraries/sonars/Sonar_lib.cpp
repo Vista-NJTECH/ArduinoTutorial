@@ -10,7 +10,7 @@ unsigned int echoPin;
 long duration;
 int distance;
 
-void Sonar::setSonarPin(trigPin, echoPin){
+void Sonar::setSonarPin(unsigned int trigPin, unsigned int echoPin){
     pinMode(trigPin, OUTPUT); 
     pinMode(echoPin, INPUT); 
 }

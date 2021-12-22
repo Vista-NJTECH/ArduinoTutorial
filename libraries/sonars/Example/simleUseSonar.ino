@@ -3,13 +3,13 @@
 int distanceOfSonar1;
 Sonar sonar1;
 
-void setuo(){
+void setup(){
     sonar1.setSonarPin(8, 9);                   //trigPin,echoPin
     Serial.begin(9600);
 }
 
 void loop(){
-    distanceOfSonar1 = sonar1.sonarStart("cm");    //cm
+    distanceOfSonar1 = sonar1.sonarStart();    
     Serial.print("Distance1: ");
     Serial.println(distanceOfSonar1);
 }
