@@ -3,5 +3,5 @@
 class Sonar {
   public:
     void setSonarPin(unsigned int, unsigned int);
-    int sonarStart();
+    long sonarStart();
 };

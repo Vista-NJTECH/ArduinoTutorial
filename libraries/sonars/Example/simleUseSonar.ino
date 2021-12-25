@@ -1,6 +1,6 @@
 #include "Sonar_lib.h"
 
-int distanceOfSonar1;
+long distanceOfSonar1;
 Sonar sonar1;
 
 void setup() {
