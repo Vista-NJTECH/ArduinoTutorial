@@ -1,0 +1,27 @@
+---
+kind: pipeline
+type: docker
+name: fiber-frontend
+
+steps:
+  - name: build
+    image: harbor.jinhun.moe/library/mdbook-builder:latest
+    commands:
+      - mdbook build
+  - name: publish
+    image: plugins/docker:latest
+    settings:
+      dockerfile: Dockerfile
+      tag:
+        - latest
+        - ${DRONE_BUILD_NUMBER}
+      username:
+        from_secret: docker_username
+      password:
+        from_secret: docker_password
+      registry: https://harbor.jinhun.moe
+      repo: harbor.jinhun.moe/library/arduino_tutorial
+
+
+image_pull_secrets:
+  - dockerconfig
